@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(../img/spaceship-4828098_1920.jpg);
+      color: azure;
+  font-weight: bold;
+  text-align: center;
+      
+  }
+  .wrapper {
+      width: 80%;
+      margin: 0 auto;
+      padding: 1em;
+      display: flex;
+      flex-flow: row nowrap;
+      border-color: brown;
+      background-color: rgb(4, 30, 41);
+  }
+  section {
+      flex-basis: 57%;
+      margin-right: 10%;
+  }
+  aside {
+      flex-basis: 33%;
+  }
+  p, [for=abtype]{
+      margin-bottom: 0;
+      margin-top: 1.4rem;
+  
+  }
+  input:not([type=radio]):not([type=checkbox]),select, textarea{
+      background-color: rgb(12, 17, 65);
+      display: block;
+      margin-bottom: 2rem;
+      width: 20rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      padding: 0 1rem;
+      border-radius: 10px;
+  }
+  
+  fieldset{
+      border: 3px solid peachpuff;
+      margin-bottom: 2rem;
+  }
+  label{
+      font-style: italic;
+      display: block;
+      padding: 1rem;
+  }
+  legend{
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid blue;
+  }
+  textarea{
+      height: 10rem;
+      padding: 1rem;
+  }
+  select{
+      background-color:rgb(12, 17, 65) ;
+      color: blanchedalmond;
+  }
+  button{
+      font-size: 1rem;
+      margin: 0.5rem 0;
+      background-color: cornflowerblue;
+      color: cornsilk;
+      border: none;
+      /* height: 3rem;
+      width: 7rem; */
+      padding: 1.5rem;
+      border-radius: 10px;
+  }
+  button:hover{
+      background-color: cornsilk;
+      color: rgb(12, 17, 65);
+  }
+  textarea{
+      text-align: center;
+      margin-left: 92px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
